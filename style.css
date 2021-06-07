@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Kalam", cursive;
-  font-weight: lighter;
+  font-weight: 300;
 }
 :root {
   --primary-color: #edbd39;
@@ -23,7 +23,6 @@ section {
   max-width: 600px;
 }
 textarea {
-  /* border: 1px solid red; */
   display: block;
   width: 100%;
   min-height: 20vh;
@@ -48,8 +47,6 @@ button {
   font-size: large;
 }
 footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   padding: 1rem;
   background-color: var(--primary-color);
