@@ -33,7 +33,7 @@ textarea {
 button {
   background: var(--primary-color);
   border: none;
-  margin: 1rem 0;
+  margin: 2rem 0;
   padding: 1rem 2rem;
   font-size: large;
 }
