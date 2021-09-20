@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Caveat&family=Indie+Flower&family=Noto+Sans:ital,wght@1,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Kalam", cursive;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 300;
 }
 :root {
-  --primary-color: #edbd39;
+  --primary-color: #edf063;
+  --secondary-color: #07b3f7;
 }
 header {
   background: var(--primary-color);
@@ -16,11 +17,18 @@ header {
 header h1 {
   font-size: 2rem;
   padding: 1rem;
+   color: var(--secondary-color);
 }
 section {
   margin: auto;
   padding: 1rem;
   max-width: 600px;
+   color: var(--secondary-color);
+  background: url(https://www.pixelstalk.net/wp-content/uploads/2016/03/Minion-Wallpaper-HD-free-download-1.jpg);
+  background-size: cover;
+}
+#txt-input {
+  border: 1px solid var(--secondary-color);
 }
 textarea {
   display: block;
@@ -36,9 +44,11 @@ button {
   margin: 2rem 0;
   padding: 1rem 2rem;
   font-size: large;
+  color: var(--secondary-color);
+  border-radius: 10px;
 }
 #output {
-  border: 1px solid black;
+  border: 1px solid var(--secondary-color);
   width: 100%;
   min-height: 10vh;
   max-height: 20vh;
@@ -51,6 +61,8 @@ footer {
   padding: 1rem;
   background-color: var(--primary-color);
   text-align: center;
+  color: var(--secondary-color);
+
 }
 
 footer h2 {
