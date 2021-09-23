@@ -1,75 +1,74 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Caveat&family=Indie+Flower&family=Noto+Sans:ital,wght@1,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 300;
 }
-:root {
-  --primary-color: #edf063;
-  --secondary-color: #07b3f7;
+:root{
+    --primary-color: rgb(243, 243, 54);
+    --secondary-color: rgb(15, 152, 177);
 }
-header {
-  background: var(--primary-color);
+body {
   text-align: center;
+  text-transform: capitalize;
 }
-header h1 {
-  font-size: 2rem;
-  padding: 1rem;
+#navbar {
+  height: 20vh;
+  background-color: var(--primary-color);
+}
+.heading {
+  padding-top: 2rem;
    color: var(--secondary-color);
 }
-section {
+main {
+  max-width: 350px;
   margin: auto;
-  padding: 1rem;
-  max-width: 600px;
-   color: var(--secondary-color);
-  background: url(https://www.pixelstalk.net/wp-content/uploads/2016/03/Minion-Wallpaper-HD-free-download-1.jpg);
-  background-size: cover;
 }
-#txt-input {
-  border: 1px solid var(--secondary-color);
+#main-section{
+    background: url(https://wallpapercave.com/wp/W3Y8SHY.jpg);
+    
+    background-size: cover;
 }
-textarea {
+#text-translating,
+#show-output {
+  margin: 1rem 0;
   display: block;
   width: 100%;
-  min-height: 20vh;
-  font-size: large;
-  margin-top: 2rem;
+  border: 2px solid var(--secondary-color);
+  overflow: scroll;
+}
+#text-translating {
+  min-height: 23vh;
+  overflow: scroll;
+}
+button {
+  padding: 0.6rem 2rem;
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  background-color: var(--primary-color);
+  border: none;
+   color: var(--secondary-color);
 }
 
-button {
-  background: var(--primary-color);
-  border: none;
-  margin: 2rem 0;
-  padding: 1rem 2rem;
-  font-size: large;
-  color: var(--secondary-color);
-  border-radius: 10px;
-}
-#output {
-  border: 1px solid var(--secondary-color);
-  width: 100%;
+#show-output {
   min-height: 10vh;
-  max-height: 20vh;
-  overflow: scroll;
-  padding: 1rem;
-  font-size: large;
+  text-align: left;
+}
+h4{
+     color: var(--secondary-color);
 }
 footer {
-  width: 100%;
-  padding: 1rem;
   background-color: var(--primary-color);
-  text-align: center;
-  color: var(--secondary-color);
-
+   color: var(--secondary-color);
 }
-
-footer h2 {
-  font-size: x-large;
-}
-
-footer p {
-  max-width: 600px;
+#footer-content {
+  max-width: 380px;
   margin: auto;
+}
+#about {
+  padding: 1.3rem 0;
+}
+#footer-para {
+  padding-bottom: 1rem;
+  letter-spacing: 1px;
+  text-align: justify;
 }
