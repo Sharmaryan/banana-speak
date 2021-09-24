@@ -52,6 +52,9 @@ button {
 #show-output {
   min-height: 10vh;
   text-align: left;
+  color: rgb(47, 231, 255);
+  
+  
 }
 h4{
      color: var(--secondary-color);
