@@ -35,10 +35,10 @@ main {
   width: 100%;
   border: 2px solid var(--secondary-color);
   overflow: scroll;
+  
 }
 #text-translating {
   min-height: 23vh;
-  overflow: scroll;
 }
 button {
   padding: 0.6rem 2rem;
@@ -51,9 +51,10 @@ button {
 
 #show-output {
   min-height: 10vh;
+  max-height: 25vh;
   text-align: left;
   color: rgb(47, 231, 255);
-  
+ 
   
 }
 h4{
@@ -74,4 +75,10 @@ footer {
   padding-bottom: 1rem;
   letter-spacing: 1px;
   text-align: justify;
+}
+footer a{
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    padding: 0 .5rem;
+
 }
